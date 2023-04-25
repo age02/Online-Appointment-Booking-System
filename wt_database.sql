@@ -26,16 +26,7 @@ SET time_zone = "+00:00";
 -- Table structure for table `book`
 --
 
-CREATE TABLE `book` (
-  `Username` varchar(30) NOT NULL,
-  `Fname` varchar(30) NOT NULL,
-  `Gender` varchar(10) NOT NULL,
-  `CID` int(5) NOT NULL,
-  `DID` int(5) NOT NULL,
-  `DOV` date NOT NULL,
-  `Timestamp` datetime NOT NULL,
-  `Status` varchar(100) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+CREATE TABLE `book` (`Username` varchar(30) NOT NULL,`Fname` varchar(30) NOT NULL,`Gender` varchar(10) NOT NULL,`CID` int(5) NOT NULL, `DID` int(5) NOT NULL,`DOV` date NOT NULL,`Timestamp` datetime NOT NULL,`Status` varchar(100) NOT NULL) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `book`
